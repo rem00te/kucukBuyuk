@@ -17,21 +17,21 @@ public class main {
             System.out.print(" SONUÇ : " + "Tüm sayılar eşit");
         } else if (a < b && a < c) {
             if (b < c) {
-                System.out.println(" SONUÇ : " + "a < b < c ");
+                System.out.println(" SONUÇ : " + a + " < " + b + " < " + c );
             } else {
-                System.out.println("SONUÇ : " + " a < c < b");
+                System.out.println("SONUÇ : " + a +" < " + c +" < " + b );
             }
         } else if ((b < a) && (b < c)) {
             if (a < c) {
-                System.out.println(" b < a < c");
+                System.out.println("SONUÇ : " + b +" < "+ a + " < " + c);
             } else {
-                System.out.println(" b < c < a");
+                System.out.println("SONUÇ : " + b +" < " + c + "< " + a );
             }
         } else {
             if (a < c) {
-                System.out.println(" c < a < b");
+                System.out.println("SONUÇ : " + c + " < " + a + " < " + b );
             } else {
-                System.out.println(" c < b < a ");
+                System.out.println(" SONUÇ : "+ c + " < " + b + " < " + a );
             }
         }
 
