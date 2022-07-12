@@ -17,21 +17,21 @@ public class main {
             System.out.print(" SONUÇ : " + "Tüm sayılar eşit");
         } else if (a < b && a < c) {
             if (b < c) {
-                System.out.println(" SONUÇ : " + a + " < " + b + " < " + c );
+                System.out.println(" SONUÇ : " + "A :" + a + " < " + "B :"+ b + " < "+ "C :" + c );
             } else {
-                System.out.println("SONUÇ : " + a +" < " + c +" < " + b );
+                System.out.println("SONUÇ : " + "A :" + a +" < " + "C :" + c +" < " + "B :" + b );
             }
         } else if ((b < a) && (b < c)) {
             if (a < c) {
-                System.out.println("SONUÇ : " + b +" < "+ a + " < " + c);
+                System.out.println("SONUÇ : " + "B :" + b +" < "+ "A :" + a + " < " + "C :" + c);
             } else {
-                System.out.println("SONUÇ : " + b +" < " + c + "< " + a );
+                System.out.println("SONUÇ : " +"B :" + b +" < " + "C :" + c + "< "+ "A :" + a );
             }
         } else {
             if (a < c) {
-                System.out.println("SONUÇ : " + c + " < " + a + " < " + b );
+                System.out.println("SONUÇ : " + "C :" + c + " < "+ "A :" + a + " < " + "B :" + b );
             } else {
-                System.out.println(" SONUÇ : "+ c + " < " + b + " < " + a );
+                System.out.println(" SONUÇ : "+ "C :" + c + " < " +"B :" + b + " < "+ "A :" + a );
             }
         }
 
